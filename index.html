@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TODOS</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css"
+        integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+    <div id="container">
+        <h1>todos</h1>
+
+        <div class="todo-bar">
+            <button class="button btn" onmouseover="display(this)"><i class="fas fa-check"></i></button>
+            <input type="text" onkeydown="search(this)" class="input" value="" style="left: 30%;">
+        </div>
+        <div class="content">
+            <ul class="append">
+
+            </ul>
+
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

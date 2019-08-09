@@ -1,0 +1,82 @@
+#container {
+    background: #ccc;
+    max-width: 50%;
+    margin: auto;
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    position: relative;
+
+}
+
+h1 {
+    line-height: 2rem;
+    color: #e0b9b6;
+    font-size: 100px;
+}
+
+/* input[type="text"] {
+    height: 25px;
+    box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0.03);
+    line-height: 3rem;
+}
+
+#todo-bar {
+    display: table;
+    text-align: center; */
+/* flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap; */
+/* border: 2px solid #ccc;
+    height: 25px;
+
+} */
+
+/* #button {
+    visibility: hidden;
+}
+
+#button:hover {
+    visibility: visible;
+} */
+.todo-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 5% 95%);
+    grid-gap: 0ch;
+    border-collapse: collapse;
+    border: 2px solid #ede9df;
+
+}
+
+.button {
+    visibility: hidden;
+}
+
+/* .button::after{
+    visibility: visible;
+} */
+ul {
+    max-width: 100%;
+    margin: 0;
+
+    list-style-type: none;
+}
+
+.content {
+    max-width: 100%;
+    margin: 0px;
+    padding: 5PX;
+}
+
+li {
+    display: grid;
+    grid-template-columns: repeat(1, 5% 90% 5%);
+    grid-gap: 0;
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto;
+    padding: 5px;
+    background: red; */
+}
