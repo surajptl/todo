@@ -13,8 +13,10 @@ function search(val) {
             obj['check'] = ch;
             var ul = document.getElementsByClassName("append");
             var bt1 = document.createElement("button");
+            bt1.setAttribute("class","btn1 fas fa-check");
             var lb = document.createElement("label");
             var btn2 = document.createElement("button");
+            btn2.setAttribute("class","btn2 fas fa-times");
             var li = document.createElement("li");
             li.setAttribute("class", "design");
             var text = document.createTextNode(val.value);

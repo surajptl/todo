@@ -80,3 +80,29 @@ li {
     padding: 5px;
     background: red; */
 }
+.btn1{
+    /* border: 2px solid black; */
+    /* background: red; */
+    padding: 12px 25px 12px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color:#31dbe0;
+    opacity: 0.1;
+}
+.btn2{
+    /* border: 2px solid black; */
+    /* background: red; */
+    padding: 12px 25px 12px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color:#811d16;
+    opacity: 0.1;
+}
+
+.btn1:hover{
+    opacity: 0.9;
+}
+
+.btn2:hover{
+    opacity: 0.9;
+}
