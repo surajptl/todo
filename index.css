@@ -12,7 +12,7 @@
 
 h1 {
     line-height: 2rem;
-    color: #e0b9b6;
+    color: #bb9caf;
     font-size: 100px;
 }
 
@@ -100,9 +100,22 @@ li {
 }
 
 .btn1:hover{
-    opacity: 0.9;
+    opacity: 1;
 }
 
 .btn2:hover{
-    opacity: 0.9;
+    opacity: 1;
+}
+.btn-top{
+    font-size: 16px;
+    cursor: pointer;
+    color:#31dbe0;
+    opacity: 0.1;
+}
+.btn-top:hover{
+    opacity: 1;
+}
+/* .append li{} */
+.task-com{
+    text-decoration: line-through;
 }
