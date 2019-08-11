@@ -1,3 +1,4 @@
+
 #container {
     background: #ccc;
     max-width: 50%;
@@ -7,7 +8,9 @@
     text-align: center;
     align-content: center;
     position: relative;
-
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid rgb(230, 46, 70);
 }
 
 h1 {
@@ -119,3 +122,20 @@ li {
 .task-com{
     text-decoration: line-through;
 }
+.line-through{
+    max-width: 100%;
+    /* background: #811d16; */
+    font-size: 20px;
+    max-height: 100%;
+    color: rgb(44, 77, 77);
+}
+
+/* .append li{
+    display: grid;
+    grid-template-columns: repeat(3,5% 90% 5%);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+
+} */
